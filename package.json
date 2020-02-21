@@ -1,0 +1,26 @@
+{
+  "name": "@premiumfastnet/bca-kurs",
+  "version": "1.0.0",
+  "main": "src/bca.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Premium-Fast-Network/node-bca-kurs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Premium-Fast-Network/node-bca-kurs/issues"
+  },
+  "homepage": "https://github.com/Premium-Fast-Network/node-bca-kurs#readme",
+  "author": "Premium Fast Network <cs@premiumfast.net>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cheerio-tableparser": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "devDependencies": {
+    "nodemailer": "^6.4.2"
+  }
+}
