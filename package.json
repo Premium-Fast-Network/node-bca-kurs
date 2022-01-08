@@ -13,7 +13,7 @@
   "author": "Premium Fast Network <cs@premiumfast.net>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "cheerio": "^1.0.0-rc.3",
     "cheerio-tableparser": "^1.0.1"
   },
