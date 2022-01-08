@@ -26,7 +26,8 @@ yarn install @premiumfastnet/bca-kurs
 ```
 
 ## Important
-- We are scrape kurs table from this links: [HERE](https://www.bca.co.id/id/Individu/Sarana/Kurs-dan-Suku-Bunga/Kurs-dan-Kalkulator)
+
+- We are scrape kurs table from this links: [https://www.bca.co.id/id/informasi/kurs](https://www.bca.co.id/id/informasi/kurs)
 
 ## Kurs `e-Rate`
 ```json
