@@ -3,12 +3,14 @@ const cheerio = require('cheerio')
 const cheerioTableparser = require('cheerio-tableparser')
 
 class BCA {
-    constructor(url) {
-        this.url = 'https://www.bca.co.id/Individu/Sarana/Kurs-dan-Suku-Bunga/Kurs-dan-Kalkulator'
+    constructor(url, debug = false) {
+        this.url = 'https://www.bca.co.id/id/informasi/kurs'
 
         if (url) {
             this.url = url
         }
+
+        this.debug = debug;
     }
 
     getCurrency() {
@@ -21,11 +23,13 @@ class BCA {
 
                     // loaded cheerio to tableparser
                     cheerioTableparser($)
-                    const html = $('.table').parsetable(true, true, true);
+                    const html = $('.m-table-kurs').parsetable(true, true, true);
+
+                    console.log(html)
 
                     // parse date
                     const checkDate = html[1][0]
-                    const dateAndTime = checkDate.replace('e-Rate', '')
+                    const dateAndTime = checkDate.replace('e-Rate ', '')
                     const dateOnly = dateAndTime.replace(' / ', ' ')
 
                     // make variable for save kurs

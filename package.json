@@ -13,14 +13,14 @@
   "author": "Premium Fast Network <cs@premiumfast.net>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.3",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
     "cheerio-tableparser": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"No test specified\""
   },
   "devDependencies": {
-    "nodemailer": "^6.4.2"
+    "nodemailer": "^6.7.2"
   }
 }
