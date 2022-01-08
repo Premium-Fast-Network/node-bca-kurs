@@ -23,9 +23,7 @@ class BCA {
 
                     // loaded cheerio to tableparser
                     cheerioTableparser($)
-                    const html = $('.m-table-kurs').parsetable(true, true, true);
-
-                    console.log(html)
+                    const html = $('table').parsetable(true, true, true);
 
                     // parse date
                     const checkDate = html[1][0]
